@@ -1,0 +1,162 @@
+header {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #000000;
+  color: #fff;
+}
+
+header a {
+  color: #f2f2f2;
+}
+
+.dark .header {
+  background-color: #8989ff;
+  margin: 10;
+  color: #fff;
+}
+
+nav {
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+nav a {
+  padding-block: 5px;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+  border-radius: 1.5rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 21px;
+  margin: 0;
+  padding: 0;
+}
+
+nav .theme-switch {
+  padding: 1px;
+  border-radius: 1.5rem;
+  background-color: rgb(57, 57, 50);
+}
+
+nav .theme-switch button {
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 1.5rem;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.nav-right {
+  float: right;
+}
+
+nav .theme-switch button.bg-white {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0 0 0 / 1);
+  float: right;
+}
+
+nav .theme-switch {
+  background-color: rgb(140, 140, 137);
+  border-radius: 1.5rem;
+  padding: 1px;
+}
+
+.dark .theme-switch {
+  background-color: #668ea2;
+}
+
+.dark .theme-switch button.bg-white {
+  background-color: rgb(120, 120, 117);
+}
+
+nav {
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: 1rem;
+  background-color: #1a86bc;
+}
+
+nav a {
+  padding-block: 5px;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 21px;
+  margin: 0;
+  padding: 0;
+}
+
+nav .theme-switch {
+  padding: 1px;
+  border-radius: 1.5rem;
+  background-color: rgb(57, 57, 50);
+}
+
+nav .theme-switch button {
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 1.5rem;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.nav-right {
+  float: right;
+}
+
+nav .theme-switch button.bg-white {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0 0 0 / 1);
+  float: right;
+}
+
+nav .theme-switch {
+  background-color: rgb(57, 57, 50);
+  border-radius: 1.5rem;
+  padding: 1px;
+}
+
+.dark .theme-switch {
+  background-color: #404344;
+}

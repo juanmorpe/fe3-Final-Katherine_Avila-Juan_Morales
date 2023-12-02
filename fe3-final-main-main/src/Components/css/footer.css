@@ -1,0 +1,37 @@
+footer {
+  /*  background-color: #8989ff;*/
+  background-color: #1a86bc;
+  margin: 10;
+  color: #fff;
+}
+
+.dark .bottom {
+  background-color: #8989ff;
+  margin: 10;
+  color: #fff;
+}
+
+footer > p {
+  margin: 0;
+  padding-top: 0.7rem;
+}
+
+.bottom {
+  overflow: hidden;
+  background-color: #1a86bc;
+}
+
+.bottom-right {
+  float: right;
+}
+
+.bottom img {
+  width: 200px;
+  margin: 0;
+}
+
+.bottom-right img {
+  width: 30px;
+  margin: 0;
+  padding: 10px;
+}
